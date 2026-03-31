@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>📚🎀Joyina's Study Time Tracker</h1>
+
+  <input type="text" id="subject" placeholder="Enter subject">
+
+  <div class="timer">
+    <h2 id="time">00:00:00</h2>
+  </div>
+
+  <div class="buttons">
+    <button onclick="startTimer()">Start</button>
+    <button onclick="stopTimer()">Stop</button>
+    <button onclick="resetTimer()">Reset</button>
+  </div>
+
+  <h3>Study Log</h3>
+  <ul id="log"></ul>
+</div>
+
+<script src="study.js"></script>
+</body>
+</html>
